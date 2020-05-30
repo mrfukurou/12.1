@@ -57,7 +57,7 @@ namespace ConsoleApp26
                     int[,] s = (int[,])ms;
                     Console.WriteLine(s);
                     mas p = (mas)ms;
-                    Console.WriteLine(p);
+                    ms.Output();
                 }
                 else { throw new Exception("Число должно быть больше единицы!"); }
             }
